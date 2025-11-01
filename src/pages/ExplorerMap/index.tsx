@@ -345,7 +345,6 @@ export default function ExplorerMapPrototype(): React.ReactElement {
                       <List disablePadding>
                         {menu.items.map((item, idx) => (
                           <React.Fragment key={item.id}>
-                            {/* Sub-item container: responsive layout */}
                             <Box
                               sx={{
                                 display: 'flex',
@@ -379,7 +378,7 @@ export default function ExplorerMapPrototype(): React.ReactElement {
                                 </Typography>
                               </Box>
 
-                              {/* Buttons placed below content on small screens */}
+                              {/* Pang responsive ng low width */}
                               <Box
                                 sx={{
                                   width: '100%',
